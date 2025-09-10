@@ -1,0 +1,213 @@
+/* 全局CSS变量定义 */
+:root {
+  /* 默认浅色主题 */
+  --primary-color: #1890ff;
+  --background-color: #ffffff;
+  --surface-color: #f5f5f5;
+  --text-primary: #262626;
+  --text-secondary: #8c8c8c;
+  --border-color: #d9d9d9;
+  --shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  
+  /* 字体大小变量 */
+  --font-size-base: 14px;
+  --font-size-small: calc(var(--font-size-base) * 0.875);
+  --font-size-large: calc(var(--font-size-base) * 1.125);
+  --font-size-xl: calc(var(--font-size-base) * 1.25);
+}
+
+/* 深色主题 */
+[data-theme="dark"] {
+  --background-color: #141414;
+  --surface-color: #1f1f1f;
+  --text-primary: #ffffff;
+  --text-secondary: #a6a6a6;
+  --border-color: #434343;
+  --shadow: 0 2px 8px rgba(0, 0, 0, 0.3);
+}
+
+/* 自动主题（根据系统偏好） */
+@media (prefers-color-scheme: dark) {
+  [data-theme="auto"] {
+    --background-color: #141414;
+    --surface-color: #1f1f1f;
+    --text-primary: #ffffff;
+    --text-secondary: #a6a6a6;
+    --border-color: #434343;
+    --shadow: 0 2px 8px rgba(0, 0, 0, 0.3);
+  }
+}
+
+/* 主题色彩变体 */
+[data-primary-color="cityu-blue"] {
+  --primary-color: #1890ff;
+}
+
+[data-primary-color="academic-green"] {
+  --primary-color: #52c41a;
+}
+
+[data-primary-color="innovation-orange"] {
+  --primary-color: #faad14;
+}
+
+[data-primary-color="wisdom-purple"] {
+  --primary-color: #722ed1;
+}
+
+[data-primary-color="classic-red"] {
+  --primary-color: #f5222d;
+}
+
+/* 字体大小类 */
+.font-size-small {
+  --font-size-base: 12px;
+}
+
+.font-size-medium {
+  --font-size-base: 14px;
+}
+
+.font-size-large {
+  --font-size-base: 16px;
+}
+
+.font-size-xlarge {
+  --font-size-base: 18px;
+}
+
+/* 全局样式应用 */
+body {
+  background-color: var(--background-color);
+  color: var(--text-primary);
+  font-size: var(--font-size-base);
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+/* Ant Design组件主题覆盖 */
+.ant-layout {
+  background-color: var(--background-color) !important;
+}
+
+.ant-card {
+  background-color: var(--surface-color) !important;
+  border-color: var(--border-color) !important;
+  box-shadow: var(--shadow) !important;
+}
+
+.ant-card-head {
+  background-color: var(--surface-color) !important;
+  border-bottom-color: var(--border-color) !important;
+}
+
+.ant-card-head-title {
+  color: var(--text-primary) !important;
+}
+
+.ant-typography {
+  color: var(--text-primary) !important;
+}
+
+.ant-typography.ant-typography-secondary {
+  color: var(--text-secondary) !important;
+}
+
+.ant-btn-primary {
+  background-color: var(--primary-color) !important;
+  border-color: var(--primary-color) !important;
+}
+
+.ant-btn-primary:hover {
+  background-color: var(--primary-color) !important;
+  border-color: var(--primary-color) !important;
+  opacity: 0.8;
+}
+
+.ant-radio-button-wrapper-checked {
+  background-color: var(--primary-color) !important;
+  border-color: var(--primary-color) !important;
+}
+
+.ant-slider-track {
+  background-color: var(--primary-color) !important;
+}
+
+.ant-slider-handle {
+  border-color: var(--primary-color) !important;
+}
+
+.ant-slider-handle:hover {
+  border-color: var(--primary-color) !important;
+}
+
+.ant-slider-handle:focus {
+  border-color: var(--primary-color) !important;
+  box-shadow: 0 0 0 5px rgba(24, 144, 255, 0.12) !important;
+}
+
+/* 平滑过渡效果 */
+* {
+  transition: background-color 0.3s ease, color 0.3s ease, border-color 0.3s ease;
+}
+
+/* 响应式字体大小 */
+html {
+  font-size: var(--font-size-base);
+}
+
+h1, .ant-typography h1 {
+  font-size: calc(var(--font-size-base) * 2.5) !important;
+}
+
+h2, .ant-typography h2 {
+  font-size: calc(var(--font-size-base) * 2) !important;
+}
+
+h3, .ant-typography h3 {
+  font-size: calc(var(--font-size-base) * 1.5) !important;
+}
+
+h4, .ant-typography h4 {
+  font-size: calc(var(--font-size-base) * 1.25) !important;
+}
+
+.ant-btn {
+  font-size: var(--font-size-base) !important;
+}
+
+.ant-input {
+  font-size: var(--font-size-base) !important;
+}
+
+.ant-select {
+  font-size: var(--font-size-base) !important;
+}
+
+/* 动画效果 */
+.theme-transition {
+  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.fade-in {
+  animation: fadeIn 0.5s ease-in;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.hover-lift {
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.hover-lift:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.15);
+}

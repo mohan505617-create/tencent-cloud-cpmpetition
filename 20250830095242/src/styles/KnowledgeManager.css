@@ -1,0 +1,291 @@
+/* 知识管理器模块样式 */
+
+/* 主容器样式 */
+.knowledge-manager-container {
+  display: flex;
+  flex-direction: column;
+  height: calc(100vh - 64px);
+  background-color: var(--bg-secondary);
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+/* 深色模式主容器 */
+.dark .knowledge-manager-container {
+  background-color: #111827;
+}
+
+/* 内容区域样式 */
+.knowledge-content {
+  display: flex;
+  flex: 1;
+  overflow: hidden;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+/* 预览区域容器 */
+.preview-container {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  padding: 16px;
+  background-color: var(--bg-secondary);
+  gap: 16px;
+}
+
+/* 深色模式预览容器 */
+.dark .preview-container {
+  background-color: #111827;
+}
+
+/* 空状态样式 */
+.preview-empty {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  flex: 1;
+  background-color: var(--bg-color);
+  border-radius: 8px;
+  border: 1px solid var(--border-color);
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.04);
+  margin: 0;
+  padding: 48px 24px;
+}
+
+/* 深色模式空状态 */
+.dark .preview-empty {
+  background-color: #1f2937;
+  border-color: #374151;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+}
+
+.preview-empty-icon {
+  font-size: 48px;
+  color: var(--text-secondary);
+  margin-bottom: 16px;
+}
+
+/* 深色模式空状态图标 */
+.dark .preview-empty-icon {
+  color: #6b7280;
+}
+
+.preview-empty-title {
+  font-size: 18px;
+  font-weight: 500;
+  color: var(--text-color);
+  margin-bottom: 8px;
+}
+
+/* 深色模式空状态标题 */
+.dark .preview-empty-title {
+  color: #f9fafb;
+}
+
+.preview-empty-description {
+  font-size: 14px;
+  color: var(--text-secondary);
+  text-align: center;
+  line-height: 1.5;
+  margin-bottom: 24px;
+}
+
+/* 深色模式空状态描述 */
+.dark .preview-empty-description {
+  color: #d1d5db;
+}
+
+.preview-empty-actions {
+  display: flex;
+  gap: 12px;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+/* 新建笔记卡片样式 */
+.new-note-card {
+  background: linear-gradient(135deg, #007bff 0%, #28a745 100%);
+  border: none;
+  border-radius: 8px;
+  box-shadow: 0 4px 12px rgba(0, 123, 255, 0.15);
+  transition: all 0.3s ease;
+  cursor: pointer;
+}
+
+.new-note-card:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 6px 20px rgba(0, 123, 255, 0.25);
+}
+
+.new-note-card .ant-card-body {
+  padding: 24px;
+  text-align: center;
+}
+
+.new-note-card-icon {
+  font-size: 32px;
+  color: #ffffff;
+  margin-bottom: 12px;
+}
+
+.new-note-card-title {
+  font-size: 16px;
+  font-weight: 600;
+  color: #ffffff;
+  margin-bottom: 8px;
+}
+
+.new-note-card-description {
+  font-size: 14px;
+  color: rgba(255, 255, 255, 0.8);
+  line-height: 1.4;
+}
+
+/* 今日卡片样式 */
+.today-card {
+  background-color: var(--bg-color);
+  border: 1px solid var(--border-color);
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.04);
+  transition: all 0.3s ease;
+}
+
+/* 深色模式今日卡片 */
+.dark .today-card {
+  background-color: #1f2937;
+  border-color: #374151;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+}
+
+.today-card:hover {
+  border-color: #28a745;
+  box-shadow: 0 4px 12px rgba(40, 167, 69, 0.1);
+}
+
+/* 深色模式今日卡片悬停 */
+.dark .today-card:hover {
+  border-color: #34d399;
+  box-shadow: 0 4px 12px rgba(52, 211, 153, 0.2);
+}
+
+.today-card .ant-card-body {
+  padding: 20px;
+}
+
+.today-card-header {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin-bottom: 12px;
+}
+
+.today-card-icon {
+  font-size: 18px;
+  color: #28a745;
+}
+
+/* 深色模式今日卡片图标 */
+.dark .today-card-icon {
+  color: #34d399;
+}
+
+.today-card-title {
+  font-size: 16px;
+  font-weight: 500;
+  color: var(--text-color);
+  margin: 0;
+}
+
+/* 深色模式今日卡片标题 */
+.dark .today-card-title {
+  color: #f9fafb;
+}
+
+.today-card-content {
+  color: var(--text-secondary);
+  font-size: 14px;
+  line-height: 1.5;
+}
+
+/* 深色模式今日卡片内容 */
+.dark .today-card-content {
+  color: #d1d5db;
+}
+
+/* 底部模块容器 */
+.bottom-modules {
+  display: flex;
+  gap: 16px;
+  margin-top: auto;
+  padding-top: 16px;
+}
+
+.bottom-modules .ant-card {
+  flex: 1;
+  min-height: 120px;
+}
+
+/* 响应式设计 */
+@media (max-width: 768px) {
+  .preview-container {
+    padding: 12px;
+    gap: 12px;
+  }
+  
+  .bottom-modules {
+    flex-direction: column;
+    gap: 12px;
+  }
+  
+  .preview-empty {
+    padding: 32px 16px;
+  }
+  
+  .preview-empty-icon {
+    font-size: 36px;
+  }
+  
+  .preview-empty-title {
+    font-size: 16px;
+  }
+  
+  .preview-empty-description {
+    font-size: 13px;
+  }
+  
+  .new-note-card .ant-card-body,
+  .today-card .ant-card-body {
+    padding: 16px;
+  }
+  
+  .new-note-card-icon {
+    font-size: 24px;
+  }
+  
+  .new-note-card-title {
+    font-size: 14px;
+  }
+  
+  .new-note-card-description {
+    font-size: 12px;
+  }
+}
+
+@media (max-width: 480px) {
+  .preview-container {
+    padding: 8px;
+    gap: 8px;
+  }
+  
+  .preview-empty {
+    padding: 24px 12px;
+  }
+  
+  .bottom-modules {
+    gap: 8px;
+  }
+}

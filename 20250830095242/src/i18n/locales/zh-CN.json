@@ -1,0 +1,1527 @@
+{
+  "common": {
+    "save": "保存",
+    "cancel": "取消",
+    "delete": "删除",
+    "edit": "编辑",
+    "add": "添加",
+    "search": "搜索",
+    "loading": "加载中...",
+    "confirm": "确认",
+    "back": "返回",
+    "next": "下一步",
+    "previous": "上一步",
+    "submit": "提交",
+    "reset": "重置",
+    "close": "关闭",
+    "open": "打开",
+    "view": "查看",
+    "download": "下载",
+    "upload": "上传",
+    "export": "导出",
+    "import": "导入",
+    "refresh": "刷新",
+    "settings": "设置",
+    "help": "帮助",
+    "about": "关于",
+    "logout": "退出登录",
+    "login": "登录",
+    "register": "注册",
+    "studentUser": "学生用户"
+  },
+  "navigation": {
+    "dashboard": "首页概览",
+    "knowledge": "知识管理",
+    "teaching": "数字谱系",
+    "research": "AI Gardener",
+    "welcome": "欢迎界面"
+  },
+  "dashboard": {
+    "title": "EduAI Hub 仪表板",
+    "welcome": "欢迎回来！",
+    "welcomeBack": "欢迎回到 EduAI Hub",
+    "overview": "概览",
+    "statistics": "统计信息",
+    "recentActivities": "最近活动",
+    "quickActions": "快速操作",
+    "dataLoadFailed": "数据加载失败",
+    "retry": "重试",
+    "refreshSuccess": "数据刷新成功",
+    "refreshFailed": "数据刷新失败",
+    "typeLabels": {
+      "knowledge": "知识管理",
+      "research": "研究助手", 
+      "teaching": "教学助手",
+      "other": "其他"
+    },
+    "aiSuggestions": {
+      "reviewLinearAlgebra": "建议复习线性代数",
+      "reviewLinearAlgebraDesc": "基于您最近的机器学习笔记，建议复习矩阵运算相关内容",
+      "exportAnalysisResults": "数据分析结果可导出",
+      "exportAnalysisResultsDesc": "您有5个分析结果可以导出为笔记，建议整理到知识库",
+      "studentQuestionsWaiting": "学生问题待回复",
+      "studentQuestionsWaitingDesc": "有3个学生问题等待回复，建议及时处理"
+    },
+    "aiSuggestionsTitle": "AI 智能建议",
+    "continueResearch": "继续研究工作",
+    "priority": {
+      "high": "高优先级",
+      "medium": "中优先级",
+      "low": "低优先级"
+    },
+    "weeklyGoals": "本周目标",
+    "completedTasks": "已完成任务数",
+    "timeline": {
+      "completeMlNotes": "完成机器学习笔记整理",
+      "analyzeGrades": "分析学生成绩数据",
+      "prepareNextWeek": "准备下周课程内容",
+      "reviewLinearAlgebra": "复习线性代数知识"
+    },
+    "quickActions": "快速操作",
+    "actions": {
+      "createNewNote": "创建新笔记",
+      "startDataCollection": "开始数据收集",
+      "viewAnalysisResults": "查看分析结果",
+      "manageCourses": "管理课程"
+    },
+    "systemStatus": {
+      "title": "系统运行正常",
+      "description": "所有模块运行正常，数据同步完成。",
+      "lastSync": "上次同步时间",
+      "onlineUsers": "在线用户",
+      "systemVersion": "系统版本"
+    },
+    "knowledgeStats": {
+      "title": "知识管理",
+      "totalNotes": "总笔记数",
+      "categories": "分类数",
+      "tags": "标签数",
+      "knowledgeNotes": "知识笔记",
+      "notesUnit": "篇",
+      "weeklyNew": "本周新增"
+    },
+    "teachingStats": {
+      "title": "教学助手",
+      "totalCourses": "总课程数",
+      "totalStudents": "学生总数",
+      "assignments": "作业数",
+      "teachingCourses": "教学课程",
+      "coursesUnit": "门",
+      "studentsCount": "学生人数",
+      "studentsUnit": "人",
+      "pendingAssignments": "待处理作业"
+    },
+    "researchStats": {
+      "title": "研究助手",
+      "projects": "项目数",
+      "publications": "发表数",
+      "collaborations": "合作数",
+      "researchProjects": "研究项目",
+      "projectsUnit": "个",
+      "dataAnalysis": "数据分析",
+      "analysisUnit": "项",
+      "studyHours": "学习时长",
+      "hoursUnit": "小时",
+      "productivity": "生产力",
+      "refreshData": "刷新数据",
+      "researchProgress": "研究流程进度",
+      "dataCollection": "数据收集",
+      "dataProcessing": "数据处理",
+      "dataAnalysis": "数据分析",
+      "knowledgeIntegration": "知识集成"
+    },
+    "activities": {
+      "createdNote": "创建了笔记",
+      "updatedCourse": "更新了课程",
+      "gradedAssignment": "评分了作业",
+      "addedStudent": "添加了学生",
+      "createdNoteDesc": "添加了神经网络内容，包括反向传播算法详细信息",
+      "gradedAssignmentDesc": "使用统计方法分析期中考试成绩分布",
+      "updatedCourseDesc": "为《数据结构与算法》课程添加了新的实验内容",
+      "addedStudentDesc": "新学生加入《机器学习基础》课程",
+      "analyzedDataDesc": "完成了学生学习行为数据的深度分析",
+      "optimizedAlgorithmDesc": "改进了推荐系统算法，提升了30%的准确率",
+      "processedData": "处理了网络爬虫数据",
+      "processedDataDesc": "从学术网站收集了最新的研究论文信息",
+      "updatedKnowledgeGraph": "更新了知识图谱",
+      "updatedKnowledgeGraphDesc": "添加了新的概念节点和关系",
+      "updatedCourseDesc": "为《数据结构与算法》课程创建了二叉树遍历作业"
+    }
+  },
+  "categories": {
+    "title": "分类管理",
+    "description": "管理您的知识分类，共 {count} 个分类",
+    "newCategory": "新建分类",
+    "statistics": {
+      "totalCategories": "总分类数",
+      "totalDocuments": "总文档数",
+      "averageDocuments": "平均文档数",
+      "activeCategories": "活跃分类数"
+    },
+    "empty": {
+      "description": "暂无分类",
+      "createFirst": "创建第一个分类"
+    },
+    "actions": {
+      "edit": "编辑分类",
+      "create": "新建分类",
+      "update": "更新",
+      "delete": "删除",
+      "cancel": "取消"
+    },
+    "form": {
+      "categoryName": "分类名称",
+      "categoryDescription": "分类描述",
+      "categoryColor": "分类颜色",
+      "namePlaceholder": "输入分类名称...",
+      "descriptionPlaceholder": "输入分类描述（可选）...",
+      "nameRequired": "请输入分类名称",
+      "nameMaxLength": "分类名称不能超过20个字符",
+      "descriptionMaxLength": "描述不能超过100个字符",
+      "colorRequired": "请选择分类颜色",
+      "recommendedColors": "推荐颜色"
+    },
+    "messages": {
+      "updateSuccess": "分类更新成功",
+      "createSuccess": "分类创建成功",
+      "deleteSuccess": "分类删除成功",
+      "deleteWarning": "该分类下还有 {count} 篇文档，请先移动或删除这些文档",
+      "formValidationFailed": "表单验证失败",
+      "confirmDeleteTitle": "确认删除",
+      "confirmDeleteDescription": "确定要删除分类\"{name}\"吗？"
+    },
+    "stats": {
+      "documentsCount": "{count} 篇文档",
+      "recentUpdates": "{count} 篇最近更新",
+      "noDescription": "暂无描述",
+      "wordsCount": "{count} 字",
+      "activity": "活跃度: {percent}%",
+      "documentDistribution": "文档数量分布",
+      "totalCategories": "总分类数",
+      "totalDocuments": "总文档数",
+      "averageDocuments": "平均文档数",
+      "activeCategories": "活跃分类数"
+    }
+  },
+  "knowledge": {
+    "title": "知识管理器",
+    "newNote": "新建笔记",
+    "categories": "分类",
+    "tags": "标签",
+    "search": "搜索笔记",
+    "allNotes": "所有笔记",
+    "recentNotes": "最近笔记",
+    "favoriteNotes": "收藏笔记",
+    "noteTitle": "笔记标题",
+    "noteContent": "笔记内容",
+    "addTag": "添加标签",
+    "selectCategory": "选择分类",
+    "saveNote": "保存笔记",
+    "deleteNote": "删除笔记",
+    "editNote": "编辑笔记",
+    "previewNote": "预览笔记",
+    "exportNote": "导出笔记",
+    "shareNote": "分享笔记",
+    "duplicateNote": "复制笔记",
+    "archiveNote": "归档笔记",
+    "restoreNote": "恢复笔记",
+    "pinNote": "置顶笔记",
+    "unpinNote": "取消置顶",
+    "messages": {
+      "createSuccess": "笔记创建成功！",
+      "createFailed": "创建失败",
+      "updateSuccess": "笔记更新成功！",
+      "updateFailed": "更新失败",
+      "deleteSuccess": "笔记删除成功！",
+      "deleteFailed": "删除失败",
+      "offlineSaved": "已离线保存，将在网络恢复后同步",
+      "newNoteTitle": "新笔记",
+      "networkError": "网络连接异常，请检查网络设置",
+      "loadingNotes": "正在加载笔记...",
+      "noNotesFound": "暂无笔记",
+      "searchNoResults": "未找到匹配的笔记",
+      "networkConnected": "网络已连接，正在同步数据...",
+      "networkDisconnected": "网络已断开，将在离线模式下工作",
+      "loadingKnowledge": "正在加载知识库...",
+      "loadFailed": "加载失败",
+      "offlineMode": "离线模式",
+      "offlineModeDesc": "当前处于离线状态，数据将在网络恢复后自动同步",
+      "loadingNotesInProgress": "加载笔记中...",
+      "processing": "处理中...",
+      "tooltips": {
+        "newNote": "新建笔记",
+        "knowledgeGraph": "知识图谱",
+        "aiRecommendations": "AI推荐",
+        "quickCapture": "快速捕获"
+      }
+    }
+  },
+  "teaching": {
+    "title": "数字谱系",
+    "courses": "课程管理",
+    "students": "学生管理",
+    "assignments": "作业管理",
+    "grading": "智能评分",
+    "analytics": "学习分析",
+    "courseDesign": "课程设计",
+    "newCourse": "新建课程",
+    "courseName": "课程名称",
+    "courseCode": "课程代码",
+    "courseDescription": "课程描述",
+    "courseSchedule": "课程安排",
+    "studentName": "学生姓名",
+    "studentId": "学号",
+    "studentEmail": "邮箱",
+    "enrollmentDate": "入学日期",
+    "assignmentTitle": "作业标题",
+    "assignmentDescription": "作业描述",
+    "dueDate": "截止日期",
+    "submissionStatus": "提交状态",
+    "grade": "成绩",
+    "feedback": "反馈",
+    "autoGrading": "自动评分",
+    "manualGrading": "手动评分",
+    "gradingCriteria": "评分标准",
+    "rubric": "评分量表"
+  },
+  "research": {
+    "title": "AI Gardener",
+    "projects": "研究项目",
+    "dataCollection": "数据收集",
+    "dataAnalysis": "数据分析",
+    "dataIntegration": "数据集成",
+    "publications": "发表管理",
+    "collaborations": "合作管理",
+    "newProject": "新建项目",
+    "projectName": "项目名称",
+    "projectDescription": "项目描述",
+    "projectStatus": "项目状态",
+    "startDate": "开始日期",
+    "endDate": "结束日期",
+    "teamMembers": "团队成员",
+    "budget": "预算",
+    "milestones": "里程碑",
+    "deliverables": "交付物",
+    "riskAssessment": "风险评估",
+    "tabs": {
+      "courseDesign": "课程设计",
+      "studentManagement": "学生管理",
+      "assignmentManagement": "作业管理",
+      "aiGrading": "AI智能评分",
+      "aiChat": "AI问答助手"
+    },
+    "course": {
+      "name": "课程名称",
+      "code": "课程代码",
+      "description": "课程描述",
+      "students": "学生数",
+      "assignments": "作业数",
+      "status": "状态",
+      "actions": "操作",
+      "addCourse": "添加课程",
+      "editCourse": "编辑课程",
+      "deleteCourse": "删除课程"
+    },
+    "student": {
+      "name": "姓名",
+      "id": "学号",
+      "course": "课程",
+      "grade": "成绩",
+      "progress": "进度",
+      "lastActive": "最后活跃",
+      "actions": "操作",
+      "addStudent": "添加学生",
+      "sendMessage": "发送消息",
+      "viewGrades": "查看成绩"
+    },
+    "assignment": {
+      "title": "作业标题",
+      "course": "课程",
+      "type": "类型",
+      "content": "内容",
+      "dueDate": "截止日期",
+      "submissions": "提交数",
+      "actions": "操作",
+      "addAssignment": "添加作业",
+      "editAssignment": "编辑作业",
+      "viewSubmissions": "查看提交"
+    },
+    "buttons": {
+      "createCourse": "创建课程",
+      "addStudent": "添加学生",
+      "edit": "编辑",
+      "delete": "删除",
+      "updateCourse": "更新课程",
+      "confirmDelete": "确认删除",
+      "confirm": "确定",
+      "cancel": "取消"
+    },
+    "messages": {
+      "deleteCourseTitle": "确认删除课程",
+      "deleteCourseContent": "确定要删除课程\"{name}\"吗？此操作不可撤销。",
+      "deleteStudentTitle": "确认删除学生",
+      "deleteStudentContent": "确定要删除学生\"{name}\"吗？此操作将删除该学生的所有相关数据。",
+      "deleteAssignmentTitle": "确认删除作业",
+      "deleteAssignmentContent": "确定要删除作业\"{title}\"吗？此操作将删除所有相关的提交和评分数据。",
+      "courseDeleteSuccess": "课程删除成功！",
+      "studentDeleteSuccess": "学生删除成功！",
+      "assignmentDeleteSuccess": "作业删除成功！",
+      "gradeDeleteSuccess": "评分记录已删除！"
+    },
+    "titles": {
+      "createCourse": "🌱 创建深圳创新课程",
+      "editCourse": "✏️ 编辑课程",
+      "addStudent": "👥 添加学生信息",
+      "createAssignment": "🤖 创建智能评分作业",
+      "editAssignment": "✏️ 编辑作业"
+    }
+  },
+  "digitalGenealogy": {
+    "title": "🔬 数字谱系 - 智能研究助手",
+    "description": "强大的数据收集、处理、分析和集成工具，助力您的学术研究工作",
+    "tabs": {
+      "dataCollection": "数据收集",
+      "dataProcessing": "数据处理", 
+      "dataAnalysis": "数据分析",
+      "dataIntegration": "数据集成"
+    },
+    "statistics": {
+      "collectedData": "已收集数据",
+      "processedData": "已处理数据",
+      "analysisResults": "分析结果",
+      "researchProgress": "研究进度"
+    },
+    "workflow": {
+      "title": "🚀 研究流程",
+      "step1": {
+        "title": "1. 数据收集",
+        "description": "通过网页抓取、文本输入或文件上传收集研究数据",
+        "completed": "✓ 已收集 {count} 项数据"
+      },
+      "step2": {
+        "title": "2. 数据处理", 
+        "description": "清理数据、移除重复项、格式转换等预处理操作",
+        "completed": "✓ 已处理 {count} 项数据"
+      },
+      "step3": {
+        "title": "3. 数据分析",
+        "description": "统计分析、可视化图表、洞察发现", 
+        "completed": "✓ 已完成 {count} 项分析"
+      },
+      "step4": {
+        "title": "4. 知识集成",
+        "description": "将分析结果导出为笔记，链接到知识管理系统",
+        "completed": "✓ 可进行知识集成"
+      }
+    },
+    "progress": {
+      "title": "📊 进度概览"
+    },
+    "guide": {
+      "title": "🎯 使用指南"
+    }
+  },
+  "teachingAssistant": {
+    "title": "👨‍🏫 AI Gardener - 超级教学助手",
+    "description": "智能化课程管理、学生跟踪、作业评分和AI问答系统",
+    "tabs": {
+      "courseManagement": "课程管理",
+      "studentManagement": "学生管理",
+      "assignmentManagement": "作业管理",
+      "aiQA": "AI问答"
+    },
+    "statistics": {
+      "activeCourses": "活跃课程",
+      "totalStudents": "学生总数",
+      "pendingAssignments": "待批作业",
+      "pendingQuestions": "待回复问题"
+    },
+    "course": {
+      "myCourses": "我的课程",
+      "createCourse": "创建课程",
+      "courseName": "课程名称",
+      "courseCode": "课程代码",
+      "courseDescription": "课程描述",
+      "studentCount": "学生数量",
+      "assignmentCount": "作业数量",
+      "status": "状态",
+      "statusInProgress": "进行中",
+      "actions": "操作",
+      "edit": "编辑",
+      "students": "学生",
+      "delete": "删除",
+      "createSuccess": "课程创建成功！",
+      "deleteSuccess": "课程删除成功！",
+      "createNewCourse": "创建新课程",
+      "enterCourseName": "请输入课程名称",
+      "enterCourseCode": "请输入课程代码",
+      "enterCourseNamePlaceholder": "输入课程名称",
+      "enterCourseCodePlaceholder": "输入课程代码",
+      "enterCourseDescriptionPlaceholder": "输入课程描述",
+      "cancel": "取消"
+    },
+    "student": {
+      "studentList": "学生列表",
+      "studentName": "学生姓名",
+      "studentId": "学号",
+      "course": "课程",
+      "progress": "学习进度",
+      "lastActive": "最后活跃",
+      "message": "消息",
+      "grades": "成绩"
+    },
+    "assignment": {
+      "assignmentList": "作业列表",
+      "createAssignment": "创建作业",
+      "assignmentTitle": "作业标题",
+      "course": "课程",
+      "dueDate": "截止日期",
+      "submissionStatus": "提交情况",
+      "status": "状态",
+      "edit": "编辑",
+      "grade": "批改",
+      "delete": "删除",
+      "createSuccess": "作业创建成功！",
+      "deleteSuccess": "作业删除成功！"
+    },
+    "aiChat": {
+      "title": "💬 AI智能问答",
+      "ready": "AI助手准备就绪，可以回答学生问题",
+      "placeholder": "输入问题或让AI帮助回答学生疑问...",
+      "send": "发送",
+      "recentQuestions": "📋 最近问题",
+      "pending": "待回复",
+      "replied": "已回复"
+    },
+    "sampleData": {
+      "courses": {
+        "dataStructure": "数据结构与算法",
+        "machineLearning": "机器学习基础"
+      },
+      "assignments": {
+        "binaryTree": "二叉树遍历算法",
+        "linearRegression": "线性回归实现"
+      },
+      "students": {
+        "zhangsan": "张三",
+        "lisi": "李四",
+        "wangwu": "王五"
+      },
+      "questions": {
+        "binaryTreeBalance": "关于二叉树的平衡问题",
+        "gradientDescent": "梯度下降算法的收敛性"
+      },
+      "timeAgo": {
+        "hoursAgo": "{hours}小时前",
+        "daysAgo": "{days}天前",
+        "minutesAgo": "{minutes}分钟前"
+      }
+    }
+  },
+  "settings": {
+    "title": "系统设置",
+    "general": "常规设置",
+    "appearance": "外观设置",
+    "language": "语言与地区",
+    "notifications": "通知设置",
+    "privacy": "隐私设置",
+    "account": "账户设置",
+    "about": "关于",
+    "interfaceLanguage": "界面语言",
+    "timezone": "时区",
+    "dateFormat": "日期格式",
+    "theme": "主题",
+    "themeMode": "主题模式",
+    "themeColor": "主题颜色",
+    "fontSize": "字体大小",
+    "lightMode": "浅色模式",
+    "darkMode": "深色模式",
+    "autoMode": "跟随系统",
+    "small": "小",
+    "medium": "中",
+    "large": "大",
+    "extraLarge": "特大",
+    "cityuBlue": "城大蓝",
+    "classicBlue": "经典蓝",
+    "emeraldGreen": "翡翠绿",
+    "sunsetOrange": "日落橙",
+    "royalPurple": "皇家紫",
+    "roseGold": "玫瑰金"
+  },
+  "search": {
+    "globalSearch": "全局搜索",
+    "searchPlaceholder": "搜索笔记、课程、学生、研究数据...",
+    "searching": "搜索中...",
+    "noResults": "未找到相关内容",
+    "searchTip": "提示: 搜索支持跨模块内容检索，包括知识笔记、课程信息、学生数据和研究资料",
+    "relevance": "匹配度"
+  },
+  "ai": {
+    "inspiration": "AI 灵感",
+    "crossModuleInspiration": "AI跨模块灵感建议",
+    "generateInspiration": "生成灵感建议",
+    "applyInspiration": "应用建议",
+    "inspirationDescription": "AI在分析您的使用情况后，为您提供跨学科的研究灵感，帮助您更好地整合各种研究和EduAI Hub的各种功能。",
+    "exampleApplications": "示例应用",
+    "knowledgeToTeaching": "将研究数据应用到教学计划",
+    "researchToKnowledge": "利用数学系统优化研究方法",
+    "teachingToResearch": "将数据分析方法应用到教学案例",
+    "quickCapture": "快速记录",
+    "saveIdea": "保存想法",
+    "generateMore": "生成更多"
+  },
+  "welcome": {
+    "title": "欢迎使用 EduAI Hub",
+    "subtitle": "您的智能教育助手",
+    "description": "EduAI Hub 是一个集成了知识管理、教学辅助和研究支持的综合性教育平台。",
+    "getStarted": "开始使用",
+    "features": {
+      "knowledgeManagement": {
+        "title": "知识管理",
+        "description": "智能笔记系统，支持分类、标签、搜索和知识图谱"
+      },
+      "teachingAssistant": {
+        "title": "教学助手",
+        "description": "课程管理、学生跟踪、智能评分和学习分析"
+      },
+      "researchSupport": {
+        "title": "研究支持",
+        "description": "数据收集、分析工具和研究项目管理"
+      }
+    },
+    "resources": {
+      "title": "资源链接",
+      "userGuide": "使用指南",
+      "help": "使用帮助",
+      "feedback": "意见反馈",
+      "contact": "联系我们"
+    }
+  },
+  "messages": {
+    "success": {
+      "saved": "保存成功",
+      "deleted": "删除成功",
+      "updated": "更新成功",
+      "created": "创建成功",
+      "uploaded": "上传成功",
+      "exported": "导出成功",
+      "imported": "导入成功"
+    },
+    "error": {
+      "saveFailed": "保存失败",
+      "deleteFailed": "删除失败",
+      "updateFailed": "更新失败",
+      "createFailed": "创建失败",
+      "uploadFailed": "上传失败",
+      "exportFailed": "导出失败",
+      "importFailed": "导入失败",
+      "networkError": "网络错误",
+      "unknownError": "未知错误"
+    },
+    "confirm": {
+      "deleteNote": "确定要删除这个笔记吗？",
+      "deleteCourse": "确定要删除这个课程吗？",
+      "deleteStudent": "确定要删除这个学生吗？",
+      "deleteAssignment": "确定要删除这个作业吗？",
+      "unsavedChanges": "有未保存的更改，确定要离开吗？"
+    }
+  },
+  "profile": {
+    "title": "香港城市大学 - 个人学术档案",
+    "subtitle": "\"敬业乐群\" - 传承导师制传统，培育卓越人才",
+    "basicInfo": {
+      "title": "基本信息",
+      "changeAvatar": "更换头像",
+      "name": "姓名",
+      "studentId": "学号",
+      "email": "邮箱",
+      "phone": "电话",
+      "department": "院系",
+      "year": "入学年份",
+      "bio": "个人简介",
+      "namePlaceholder": "请输入姓名",
+      "studentIdPlaceholder": "请输入学号",
+      "emailPlaceholder": "请输入邮箱",
+      "phonePlaceholder": "请输入电话",
+      "departmentPlaceholder": "请选择院系",
+      "yearPlaceholder": "请选择入学年份",
+      "bioPlaceholder": "请输入个人简介"
+    },
+    "departments": {
+      "computerScience": "计算机科学系",
+      "engineering": "工程学院",
+      "business": "商学院",
+      "humanities": "人文社会科学院",
+      "scienceEngineering": "科学及工程学院"
+    },
+    "actions": {
+      "edit": "编辑资料",
+      "save": "保存资料",
+      "addAchievement": "添加新成就",
+      "backHome": "返回首页",
+      "systemSettings": "系统设置"
+    },
+    "messages": {
+      "updateSuccess": "个人资料更新成功！",
+      "updateError": "更新失败，请重试"
+    },
+    "overview": {
+      "title": "学术概览",
+      "achievements": "学术成就",
+      "mentorship": "导师指导",
+      "coursePreferences": "课程偏好"
+    },
+    "mentorshipTradition": {
+      "title": "导师制传统 - 学术传承",
+      "alertTitle": "香港城市大学导师制传统",
+      "alertDescription": "我校秉承'敬业乐群'的校训，通过导师制度传承学术精神，培养学生的学术品格和研究能力。每位学生都有专属导师指导学术发展。",
+      "currentMentor": "当前导师",
+      "guidingOthers": "指导他人",
+      "guidingField": "指导领域",
+      "mentorshipHistory": "导师指导历程"
+    },
+    "achievements": {
+      "title": "学术成就记录",
+      "mentor": "指导导师",
+      "types": {
+        "award": "奖项",
+        "publication": "发表",
+        "project": "项目",
+        "competition": "竞赛"
+      }
+    },
+    "footer": {
+      "copyright": "© 2024 香港城市大学 City University of Hong Kong"
+    }
+  },
+  "userGuide": {
+    "title": "📖 EduAI Hub 使用指南",
+    "subtitle": "欢迎使用EduAI Hub综合教育平台！本指南将帮助您快速上手，充分利用平台的各项功能，提升学习和教学效率。",
+    "actions": {
+      "getStarted": "立即开始使用",
+      "contactSupport": "联系技术支持",
+      "tryNow": "立即体验 →",
+      "sendEmail": "发送邮件",
+      "submitFeedback": "提交反馈"
+    },
+    "quickStart": {
+      "title": "🚀 快速开始",
+      "alertTitle": "温馨提示",
+      "alertDescription": "首次使用建议先浏览各模块功能，然后根据个人需求选择主要使用的模块进行深入体验。",
+      "steps": {
+        "register": {
+          "title": "注册登录",
+          "description": "使用香港城市大学邮箱注册账户"
+        },
+        "selectModule": {
+          "title": "选择模块",
+          "description": "根据需求选择相应的功能模块"
+        },
+        "importData": {
+          "title": "导入数据",
+          "description": "上传现有的学习或教学资料"
+        },
+        "startUsing": {
+          "title": "开始使用",
+          "description": "探索各项功能，提升学习效率"
+        }
+      }
+    },
+    "modules": {
+      "title": "🎯 功能模块详解",
+      "mainFeatures": "主要功能：",
+      "usageScenarios": "使用场景：",
+      "dashboard": {
+        "title": "智能仪表板",
+        "description": "系统总览和快速导航中心",
+        "features": [
+          "📊 实时数据统计和可视化图表",
+          "🔔 重要通知和待办事项提醒",
+          "📈 学习进度和成绩趋势分析",
+          "🎯 个性化推荐和智能建议",
+          "⚡ 快速访问各功能模块"
+        ],
+        "usage": [
+          "查看整体学习/教学数据概览",
+          "快速导航到其他功能模块",
+          "处理待办事项和通知",
+          "分析学习趋势和表现"
+        ]
+      },
+      "knowledge": {
+        "title": "知识管理器",
+        "description": "强大的笔记系统和知识图谱",
+        "features": [
+          "📝 富文本笔记编辑和Markdown支持",
+          "🔗 双向链接和知识图谱可视化",
+          "🏷️ 智能标签和分类管理",
+          "🔍 全文搜索和内容检索",
+          "📱 多设备同步和云端存储"
+        ],
+        "usage": [
+          "创建和编辑学习笔记",
+          "建立知识点之间的关联",
+          "使用标签组织知识结构",
+          "搜索和回顾历史笔记"
+        ]
+      },
+      "research": {
+        "title": "数字谱系",
+        "description": "智能研究助手和数据分析工具",
+        "features": [
+          "📊 数据收集和处理工具",
+          "📈 统计分析和可视化图表",
+          "🔬 研究项目管理和跟踪",
+          "📄 文献管理和引用生成",
+          "🤖 AI辅助数据分析"
+        ],
+        "usage": [
+          "管理研究项目和数据",
+          "进行统计分析和可视化",
+          "组织文献和研究资料",
+          "生成研究报告和图表"
+        ]
+      },
+      "teaching": {
+        "title": "AI园丁",
+        "description": "超级教学助手和课程管理平台",
+        "features": [
+          "👥 学生管理和成绩跟踪",
+          "📚 课程设计和作业管理",
+          "🤖 AI智能评分系统",
+          "💬 智能问答和学习指导",
+          "📊 教学数据分析和报告"
+        ],
+        "usage": [
+          "创建和管理课程内容",
+          "跟踪学生学习进度",
+          "使用AI进行作业评分",
+          "提供个性化学习指导"
+        ]
+      }
+    },
+    "tips": {
+      "title": "💡 使用技巧与最佳实践",
+      "efficient": {
+        "title": "高效使用技巧",
+        "content": [
+          "定期备份重要数据到云端",
+          "使用标签和分类组织内容",
+          "充分利用搜索功能快速定位",
+          "设置提醒和待办事项"
+        ]
+      },
+      "shortcuts": {
+        "title": "常用快捷键",
+        "content": [
+          "Ctrl+S: 保存当前内容",
+          "Ctrl+F: 搜索页面内容",
+          "Ctrl+N: 创建新笔记/项目",
+          "Ctrl+Z: 撤销操作"
+        ]
+      },
+      "bestPractices": {
+        "title": "最佳实践",
+        "content": [
+          "保持数据结构清晰有序",
+          "定期回顾和更新内容",
+          "与同学老师分享协作",
+          "及时反馈使用问题"
+        ]
+      }
+    },
+    "faq": {
+      "title": "❓ 常见问题解答",
+      "questions": {
+        "sync": {
+          "question": "Q: 如何同步数据到云端？",
+          "answer": "A: 系统会自动保存您的数据到云端。您也可以在设置中手动触发同步，确保数据安全。"
+        },
+        "password": {
+          "question": "Q: 忘记密码怎么办？",
+          "answer": "A: 请联系技术支持邮箱 mohanli6-c@my.cityu.edu.hk，我们会协助您重置密码。"
+        },
+        "mobile": {
+          "question": "Q: 可以在移动设备上使用吗？",
+          "answer": "A: 是的，EduAI Hub 支持响应式设计，可以在手机、平板等移动设备上正常使用。"
+        },
+        "export": {
+          "question": "Q: 如何导出我的数据？",
+          "answer": "A: 在各模块的设置中都有数据导出功能，支持多种格式如PDF、Word、Excel等。"
+        }
+      }
+    },
+    "support": {
+      "title": "📞 获取帮助与支持",
+      "technical": {
+        "title": "技术支持",
+        "description": "遇到技术问题或需要帮助？"
+      },
+      "feedback": {
+        "title": "反馈建议",
+        "description": "您的建议是我们改进的动力！"
+      }
+    }
+  },
+  "welcome": {
+    "header": {
+      "title": "🎓 EduAI Hub",
+      "subtitle": "Comprehensive Educational Platform",
+      "university": "香港城市大学 City University of Hong Kong"
+    },
+    "intro": {
+      "whyChoose": "为什么选择 EduAI Hub？",
+      "description": "EduAI Hub 是专为香港城市大学打造的综合教育平台，传承学校的数字遗产，整合了知识管理、研究分析和教学工具，为学生、研究者和教师提供一站式的智能化学术支持，延续并发展我校的教育传统。",
+      "heritage": {
+        "title": "🏛️ 传承数字遗产",
+        "description": "EduAI Hub 不仅是一个现代化的教育平台，更是香港城市大学数字遗产的传承者。我们将学校多年来积累的教育智慧、研究成果和学术传统融入到智能化系统中，让每一位用户都能感受到我校深厚的教育底蕴。"
+      },
+      "advantages": {
+        "title": "🌟 平台优势",
+        "items": {
+          "heritage": {
+            "title": "数字传承：",
+            "description": "继承并发展学校的教育传统和学术精神"
+          },
+          "integration": {
+            "title": "智能整合：",
+            "description": "四大模块无缝协作，数据互通共享"
+          },
+          "ai": {
+            "title": "AI赋能：",
+            "description": "人工智能技术提升学习和教学效率"
+          },
+          "datadriven": {
+            "title": "数据驱动：",
+            "description": "基于数据分析的个性化推荐和洞察"
+          },
+          "cloud": {
+            "title": "云端协作：",
+            "description": "支持多设备同步和团队协作"
+          }
+        }
+      }
+    },
+    "features": {
+      "dashboard": {
+        "title": "智能仪表板",
+        "description": "统一的学习和教学概览，实时掌握各模块动态和进度。"
+      },
+      "knowledge": {
+        "title": "知识管理器",
+        "description": "强大的笔记系统，支持双向链接和知识图谱可视化。"
+      },
+      "research": {
+        "title": "数字谱系",
+        "description": "智能研究助手，提供数据收集、处理和分析工具。"
+      },
+      "teaching": {
+        "title": "AI Gardener",
+        "description": "超级教学助手，课程管理、学生跟踪和智能问答。"
+      }
+    },
+    "benefits": [
+      "🎓 统一平台：整合学习、研究、教学全流程",
+      "🤖 AI驱动：智能推荐和自动化处理",
+      "📊 数据洞察：可视化分析和统计报告",
+      "🔗 无缝协作：模块间数据共享和联动",
+      "🌐 云端同步：随时随地访问您的学术资源",
+      "🎯 个性化：根据使用习惯智能优化体验"
+    ],
+    "quickStart": {
+      "title": "立即开始",
+      "buttons": {
+        "enterHub": "进入 EduAI Hub",
+        "useKnowledge": "直接使用知识管理器",
+        "tryResearch": "体验研究助手",
+        "tryTeaching": "试用教学助手"
+      },
+      "features": {
+        "title": "平台特色",
+        "tags": {
+          "dashboard": "智能仪表板",
+          "knowledge": "知识图谱",
+          "analysis": "数据分析",
+          "ai": "AI问答",
+          "sync": "云端同步"
+        }
+      }
+    },
+    "modules": {
+      "title": "🚀 四大核心模块"
+    },
+    "benefits": {
+      "title": "💡 平台优势"
+    },
+    "footer": {
+      "university": {
+        "title": "香港城市大学",
+        "subtitle": "City University of Hong Kong",
+        "description": "致力于卓越教育与创新研究",
+        "visitWebsite": "访问官网 →"
+      },
+      "resources": {
+        "title": "学术资源",
+        "description": "丰富的学术资源和研究支持",
+        "library": "📚 图书馆资源",
+        "research": "🔬 研究中心",
+        "journals": "📖 学术期刊"
+      },
+      "support": {
+        "title": "技术支持",
+        "description": "专业的技术支持和用户服务",
+        "online": "📞 在线客服",
+        "guide": "📋 使用指南",
+        "technical": "🔧 技术支持"
+      },
+      "copyright": {
+        "platform": "EduAI Hub - 综合教育平台",
+        "developed": "由香港城市大学支持开发",
+        "help": "使用帮助",
+        "contact": "联系我们",
+        "rights": "© 2024 City University of Hong Kong. All rights reserved."
+      }
+    }
+  },
+  "search": {
+    "title": "搜索",
+    "placeholder": "搜索文档标题、内容或标签...",
+    "resultsFound": "搜索 \"{{query}}\" 找到 {{count}} 个结果",
+    "uncategorized": "未分类",
+    "tabs": {
+      "all": "全部结果",
+      "documents": "文档",
+      "favorites": "收藏",
+      "recent": "最近"
+    },
+    "filters": {
+      "selectCategory": "选择分类",
+      "allCategories": "全部分类",
+      "favorites": "收藏夹",
+      "archived": "归档",
+      "selectTags": "选择标签"
+    },
+    "sort": {
+      "relevance": "按相关性",
+      "date": "按时间",
+      "title": "按标题"
+    },
+    "empty": {
+      "title": "开始搜索",
+      "description": "输入关键词搜索您的文档、标签或内容",
+      "popularTags": "热门标签："
+    },
+    "noResults": "没有找到匹配的{{type}}",
+    "relevance": "相关性: {{score}}%",
+    "wordCount": "{{count}} 字",
+    "stats": {
+      "total": "总结果",
+      "documents": "文档",
+      "favorites": "收藏",
+      "recent": "最近"
+    }
+  },
+  "documentList": {
+    "title": "文档列表",
+    "totalCount": "共 {{count}} 篇文档",
+    "newDocument": "新建文档",
+    "searchPlaceholder": "搜索文档...",
+    "selectCategory": "选择分类",
+    "allCategories": "全部分类",
+    "favorites": "收藏夹",
+    "archived": "归档",
+    "selectTags": "选择标签",
+    "sortByUpdated": "按更新时间",
+    "sortByCreated": "按创建时间",
+    "sortByTitle": "按标题",
+    "noDocuments": "暂无文档",
+    "createFirst": "创建第一篇文档",
+    "uncategorized": "未分类",
+    "updatedAt": "更新于 {{date}}",
+    "wordCount": "{{count}} 字",
+    "menu": {
+      "view": "查看",
+      "edit": "编辑",
+      "favorite": "添加收藏",
+      "unfavorite": "取消收藏",
+      "archive": "归档",
+      "unarchive": "取消归档",
+      "delete": "删除"
+    },
+    "messages": {
+      "favorited": "已添加到收藏",
+      "unfavorited": "已取消收藏",
+      "archived": "已归档",
+      "unarchived": "已取消归档",
+      "deleted": "文档已删除"
+    },
+    "delete": {
+      "title": "确认删除",
+      "content": "确定要删除文档\"{{title}}\"吗？此操作不可恢复。",
+      "confirm": "删除",
+      "cancel": "取消"
+    },
+    "pagination": {
+      "total": "第 {{start}}-{{end}} 条，共 {{total}} 条"
+    }
+  },
+  "documentViewer": {
+    "loading": "加载中...",
+    "uncategorized": "未分类",
+    "breadcrumb": {
+      "documentList": "文档列表"
+    },
+    "actions": {
+      "back": "返回",
+      "edit": "编辑",
+      "preview": "预览",
+      "share": "分享",
+      "delete": "删除",
+      "save": "保存",
+      "cancel": "取消"
+    },
+    "tooltips": {
+      "favorite": "添加收藏",
+      "unfavorite": "取消收藏"
+    },
+    "metadata": {
+      "createdAt": "创建于 {{date}}",
+      "updatedAt": "更新于 {{date}}",
+      "wordCount": "{{count}} 字",
+      "readingTime": "预计阅读 {{time}} 分钟"
+    },
+    "form": {
+      "title": "标题",
+      "titlePlaceholder": "输入文档标题...",
+      "category": "分类",
+      "tags": "标签",
+      "tagsPlaceholder": "选择或输入标签...",
+      "content": "内容 (支持 Markdown)",
+      "contentPlaceholder": "输入文档内容，支持 Markdown 语法..."
+    },
+    "messages": {
+      "saved": "文档保存成功",
+      "favorited": "已添加到收藏",
+      "unfavorited": "已取消收藏",
+      "deleted": "文档已删除",
+      "shareInDevelopment": "分享功能开发中"
+    },
+    "errors": {
+      "notFound": "文档不存在",
+      "emptyFields": "标题和内容不能为空"
+    },
+    "delete": {
+      "title": "确认删除",
+      "content": "确定要删除文档\"{{title}}\"吗？此操作不可恢复。",
+      "confirm": "删除",
+      "cancel": "取消"
+    },
+    "relatedDocs": {
+      "title": "相关文档",
+      "inDevelopment": "相关文档推荐功能开发中...",
+      "description": "将基于标签和内容相似度推荐相关文档"
+    }
+  },
+  "header": {
+    "backToWelcome": "返回欢迎页面",
+    "backHome": "返回首页",
+    "title": "独家记忆 - 个人知识管理",
+    "hideAI": "隐藏AI建议",
+    "showAI": "AI建议",
+    "hideGraph": "隐藏图谱",
+    "showGraph": "知识图谱"
+  },
+  "footer": {
+    "universityName": "香港城市大学",
+    "universityNameEn": "City University of Hong Kong",
+    "systemName": "个人学术档案管理系统",
+    "systemNameEn": "Personal Academic Portfolio Management",
+    "universityFull": "香港城市大学 | City University of Hong Kong",
+    "academicResources": "学术资源",
+    "contactSupport": "联系支持",
+    "openSource": "开源项目",
+    "darkMode": "深色模式",
+    "copyright": "© 2024 香港城市大学个人知识管理系统 | 为学术研究和知识管理而设计 | 版本 1.0.0"
+  },
+  "layout": {
+    "headerTitle": "香港城市大学 - EduAI Hub",
+    "globalSearch": "全局搜索"
+  },
+  "dataAnalysis": {
+    "title": "数据分析",
+    "noData": "暂无可分析的数据",
+    "noDataDescription": "请先在数据处理模块处理数据"
+  },
+  "globalSearch": {
+    "placeholder": "搜索笔记、课程、学生、研究数据...",
+    "searching": "搜索中...",
+    "noResults": "未找到相关内容"
+  },
+  "settings": {
+    "title": "系统设置 - 个性化配置",
+    "subtitle": "System Settings - Personalized Configuration",
+    "description": "定制您的 EduAI Hub 使用体验",
+    "toggleTheme": "切换主题模式",
+    "lightMode": "浅色模式",
+    "darkMode": "深色模式",
+    "autoMode": "自动切换",
+    "resetDefault": "恢复默认",
+    "saveSettings": "保存设置",
+    "appearance": "外观主题",
+    "themeMode": "主题模式",
+    "themeColor": "主题色彩",
+    "fontSize": "字体大小",
+    "language": "语言设置",
+    "interfaceLanguage": "界面语言",
+    "timezone": "时区设置",
+    "dateFormat": "日期格式"
+  },
+  "digitalGenealogy": {
+    "title": "🧬 数字谱系 - 智能研究助手",
+    "description": "强大的数据收集、处理、分析和集成工具，助力您的学术研究工作。",
+    "tabs": {
+      "dataCollection": "数据收集",
+      "dataProcessing": "数据处理",
+      "dataAnalysis": "数据分析",
+      "dataIntegration": "数据集成"
+    },
+    "statistics": {
+      "collectedData": "收集数据",
+      "processedData": "处理数据",
+      "analysisResults": "分析结果",
+      "researchProgress": "研究进度"
+    },
+    "workflow": {
+      "title": "🔬 研究工作流",
+      "step1": {
+        "title": "1. 数据收集",
+        "description": "通过网页抓取、文本输入或文件上传收集研究数据",
+        "completed": "已收集 {{count}} 项数据"
+      },
+      "step2": {
+        "title": "2. 数据处理",
+        "description": "清理数据、移除重复项、格式转换等预处理操作",
+        "completed": "已处理 {{count}} 项数据"
+      },
+      "step3": {
+        "title": "3. 数据分析",
+        "description": "统计分析、可视化图表、洞察发现",
+        "completed": "已完成 {{count}} 项分析"
+      },
+      "step4": {
+        "title": "4. 知识集成",
+        "description": "将分析结果导出为笔记，链接到知识管理系统",
+        "completed": "可进行知识集成"
+      }
+    }
+  }
+}进行知识集成"
+      }
+    }
+  }
+}体验",
+    "toggleTheme": "切换主题模式",
+    "lightMode": "浅色模式",
+    "darkMode": "深色模式",
+    "autoMode": "自动切换",
+    "resetDefault": "恢复默认",
+    "saveSettings": "保存设置",
+    "appearance": "外观主题",
+    "themeMode": "主题模式",
+    "themeColor": "主题色彩",
+    "fontSize": "字体大小",
+    "language": "语言设置",
+    "interfaceLanguage": "界面语言",
+    "timezone": "时区设置",
+    "dateFormat": "日期格式"
+  },
+  "digitalGenealogy": {
+    "title": "🧬 数字谱系 - 智能研究助手",
+    "description": "强大的数据收集、处理、分析和集成工具，助力您的学术研究工作。",
+    "tabs": {
+      "dataCollection": "数据收集",
+      "dataProcessing": "数据处理",
+      "dataAnalysis": "数据分析",
+      "dataIntegration": "数据集成"
+    },
+    "statistics": {
+      "collectedData": "收集数据",
+      "processedData": "处理数据",
+      "analysisResults": "分析结果",
+      "researchProgress": "研究进度"
+    },
+    "workflow": {
+      "title": "🔬 研究工作流",
+      "step1": {
+        "title": "1. 数据收集",
+        "description": "通过网页抓取、文本输入或文件上传收集研究数据",
+        "completed": "已收集 {{count}} 项数据"
+      },
+      "step2": {
+        "title": "2. 数据处理",
+        "description": "清理数据、移除重复项、格式转换等预处理操作",
+        "completed": "已处理 {{count}} 项数据"
+      },
+      "step3": {
+        "title": "3. 数据分析",
+        "description": "统计分析、可视化图表、洞察发现",
+        "completed": "已完成 {{count}} 项分析"
+      },
+      "step4": {
+        "title": "4. 知识集成",
+        "description": "将分析结果导出为笔记，链接到知识管理系统",
+        "completed": "可进行知识集成"
+      }
+    }
+  }
+}��理操作",
+        "completed": "已处理 {{count}} 项数据"
+      },
+      "step3": {
+        "title": "3. 数据分析",
+        "description": "统计分析、可视化图表、洞察发现",
+        "completed": "已完成 {{count}} 项分析"
+      },
+      "step4": {
+        "title": "4. 知识集成",
+        "description": "将分析结果导出为笔记，链接到知识管理系统",
+        "completed": "可进行知识集成"
+      }
+    }
+  }
+}     "dataProcessing": "数据处理",
+      "dataAnalysis": "数据分析",
+      "dataIntegration": "数据集成"
+    },
+    "statistics": {
+      "collectedData": "收集数据",
+      "processedData": "处理数据",
+      "analysisResults": "分析结果",
+      "researchProgress": "研究进度"
+    },
+    "workflow": {
+      "title": "🔬 研究工作流",
+      "step1": {
+        "title": "1. 数据收集",
+        "description": "通过网页抓取、文本输入或文件上传收集研究数据",
+        "completed": "已收集 {{count}} 项数据"
+      },
+      "step2": {
+        "title": "2. 数据处理",
+        "description": "清理数据、移除重复项、格式转换等预处理操作",
+        "completed": "已处理 {{count}} 项数据"
+      },
+      "step3": {
+        "title": "3. 数据分析",
+        "description": "统计分析、可视化图表、洞察发现",
+        "completed": "已完成 {{count}} 项分析"
+      },
+      "step4": {
+        "title": "4. 知识集成",
+        "description": "将分析结果导出为笔记，链接到知识管理系统",
+        "completed": "可进行知识集成"
+      }
+    }
+  }
+}
+        "completed": "已完成 {{count}} 项分析"
+      },
+      "step4": {
+        "title": "4. 知识集成",
+        "description": "将分析结果导出为笔记，链接到知识管理系统",
+        "completed": "可进行知识集成"
+      }
+    }
+  }
+}4": {
+        "title": "4. 知识集成",
+        "description": "将分析结果导出为笔记，链接到知识管理系统",
+        "completed": "可进行知识集成"
+      }
+    }
+  }
+}: "将分析结果导出为笔记，链接到知识管理系统",
+        "completed": "可进行知识集成"
+      }
+    }
+  }
+}    "breadcrumb": {
+      "documentList": "文档列表"
+    },
+    "actions": {
+      "back": "返回",
+      "edit": "编辑",
+      "preview": "预览",
+      "share": "分享",
+      "delete": "删除",
+      "save": "保存",
+      "cancel": "取消"
+    },
+    "tooltips": {
+      "favorite": "添加收藏",
+      "unfavorite": "取消收藏"
+    },
+    "metadata": {
+      "createdAt": "创建于 {{date}}",
+      "updatedAt": "更新于 {{date}}",
+      "wordCount": "{{count}} 字",
+      "readingTime": "预计阅读 {{time}} 分钟"
+    },
+    "form": {
+      "title": "标题",
+      "titlePlaceholder": "输入文档标题...",
+      "category": "分类",
+      "tags": "标签",
+      "tagsPlaceholder": "选择或输入标签...",
+      "content": "内容 (支持 Markdown)",
+      "contentPlaceholder": "输入文档内容，支持 Markdown 语法..."
+    },
+    "messages": {
+      "saved": "文档保存成功",
+      "favorited": "已添加到收藏",
+      "unfavorited": "已取消收藏",
+      "deleted": "文档已删除",
+      "shareInDevelopment": "分享功能开发中"
+    },
+    "errors": {
+      "notFound": "文档不存在",
+      "emptyFields": "标题和内容不能为空"
+    },
+    "delete": {
+      "title": "确认删除",
+      "content": "确定要删除文档\"{{title}}\"吗？此操作不可恢复。",
+      "confirm": "删除",
+      "cancel": "取消"
+    },
+    "relatedDocs": {
+      "title": "相关文档",
+      "inDevelopment": "相关文档推荐功能开发中...",
+      "description": "将基于标签和内容相似度推荐相关文档"
+    }
+  },
+  "header": {
+    "backToWelcome": "返回欢迎页面",
+    "backHome": "返回首页",
+    "title": "独家记忆 - 个人知识管理",
+    "hideAI": "隐藏AI建议",
+    "showAI": "AI建议",
+    "hideGraph": "隐藏图谱",
+    "showGraph": "知识图谱"
+  },
+  "footer": {
+    "universityName": "香港城市大学",
+    "universityNameEn": "City University of Hong Kong",
+    "systemName": "个人学术档案管理系统",
+    "systemNameEn": "Personal Academic Portfolio Management",
+    "universityFull": "香港城市大学 | City University of Hong Kong",
+    "academicResources": "学术资源",
+    "contactSupport": "联系支持",
+    "openSource": "开源项目",
+    "darkMode": "深色模式",
+    "copyright": "© 2024 香港城市大学个人知识管理系统 | 为学术研究和知识管理而设计 | 版本 1.0.0"
+  },
+  "layout": {
+    "headerTitle": "香港城市大学 - EduAI Hub",
+    "globalSearch": "全局搜索"
+  },
+  "dataAnalysis": {
+    "title": "数据分析",
+    "noData": "暂无可分析的数据",
+    "noDataDescription": "请先在数据处理模块处理数据"
+  },
+  "globalSearch": {
+    "placeholder": "搜索笔记、课程、学生、研究数据...",
+    "searching": "搜索中...",
+    "noResults": "未找到相关内容"
+  },
+  "settings": {
+    "title": "系统设置 - 个性化配置",
+    "subtitle": "System Settings - Personalized Configuration",
+    "description": "定制您的 EduAI Hub 使用体验",
+    "toggleTheme": "切换主题模式",
+    "lightMode": "浅色模式",
+    "darkMode": "深色模式",
+    "autoMode": "自动切换",
+    "resetDefault": "恢复默认",
+    "saveSettings": "保存设置",
+    "appearance": "外观主题",
+    "themeMode": "主题模式",
+    "themeColor": "主题色彩",
+    "fontSize": "字体大小",
+    "language": "语言设置",
+    "interfaceLanguage": "界面语言",
+    "timezone": "时区设置",
+    "dateFormat": "日期格式"
+  },
+  "digitalGenealogy": {
+    "title": "🧬 数字谱系 - 智能研究助手",
+    "description": "强大的数据收集、处理、分析和集成工具，助力您的学术研究工作。",
+    "tabs": {
+      "dataCollection": "数据收集",
+      "dataProcessing": "数据处理",
+      "dataAnalysis": "数据分析",
+      "dataIntegration": "数据集成"
+    },
+    "statistics": {
+      "collectedData": "收集数据",
+      "processedData": "处理数据",
+      "analysisResults": "分析结果",
+      "researchProgress": "研究进度"
+    },
+    "workflow": {
+      "title": "🔬 研究工作流",
+      "step1": {
+        "title": "1. 数据收集",
+        "description": "通过网页抓取、文本输入或文件上传收集研究数据",
+        "completed": "已收集 {{count}} 项数据"
+      },
+      "step2": {
+        "title": "2. 数据处理",
+        "description": "清理数据、移除重复项、格式转换等预处理操作",
+        "completed": "已处理 {{count}} 项数据"
+      },
+      "step3": {
+        "title": "3. 数据分析",
+        "description": "统计分析、可视化图表、洞察发现",
+        "completed": "已完成 {{count}} 项分析"
+      },
+      "step4": {
+        "title": "4. 知识集成",
+        "description": "将分析结果导出为笔记，链接到知识管理系统",
+        "completed": "可进行知识集成"
+      }
+    }
+  }
+}}tion": "将分析结果导出为笔记，链接到知识管理系统",
+        "completed": "可进行知识集成"
+      }
+    }
+  }
+}分析结果",
+      "researchProgress": "研究进度"
+    },
+    "workflow": {
+      "title": "🔬 研究工作流",
+      "step1": {
+        "title": "1. 数据收集",
+        "description": "通过网页抓取、文本输入或文件上传收集研究数据",
+        "completed": "已收集 {{count}} 项数据"
+      },
+      "step2": {
+        "title": "2. 数据处理",
+        "description": "清理数据、移除重复项、格式转换等预处理操作",
+        "completed": "已处理 {{count}} 项数据"
+      },
+      "step3": {
+        "title": "3. 数据分析",
+        "description": "统计分析、可视化图表、洞察发现",
+        "completed": "已完成 {{count}} 项分析"
+      },
+      "step4": {
+        "title": "4. 知识集成",
+        "description": "将分析结果导出为笔记，链接到知识管理系统",
+        "completed": "可进行知识集成"
+      }
+    }
+  }
+}

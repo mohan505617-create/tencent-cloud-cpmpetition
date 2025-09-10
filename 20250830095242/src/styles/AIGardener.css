@@ -1,0 +1,55 @@
+/* AI Gardener 模块样式 */
+
+/* 表格行悬停效果 */
+.ant-table-tbody > tr:hover .delete-button {
+  opacity: 1 !important;
+}
+
+/* 操作按钮容器样式 */
+.action-buttons {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  overflow: hidden;
+  justify-content: flex-start;
+}
+
+/* 删除按钮默认隐藏 */
+.delete-button {
+  opacity: 0;
+  transition: opacity 0.2s ease-in-out;
+}
+
+/* 表格单元格溢出控制 */
+.ant-table-cell {
+  overflow: hidden;
+}
+
+/* 确保按钮不会溢出 */
+.action-buttons .ant-btn {
+  flex-shrink: 0;
+  white-space: nowrap;
+}
+
+/* 删除按钮悬停效果 */
+.delete-button:hover {
+  background-color: #fff2f0 !important;
+  border-color: #ffccc7 !important;
+}
+
+/* 表格行悬停时的整体效果 */
+.ant-table-tbody > tr:hover {
+  background-color: #fafafa;
+}
+
+/* 响应式设计 - 小屏幕优化 */
+@media (max-width: 768px) {
+  .action-buttons {
+    gap: 4px;
+  }
+  
+  .action-buttons .ant-btn {
+    padding: 4px 8px;
+    font-size: 12px;
+  }
+}
